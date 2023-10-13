@@ -1,0 +1,52 @@
+1) Los resultados de cada ejecucion estan en reporte_v1.txt y reporte_v2.txt
+
+2) codigo agregado
+
+3) reportes extendidos
+
+4) Resultados en captura_20213812.png
+
+5) Se guardan las ejecuciones individuales en carpetas reportes_v1 y reportes_v2 los resultados de cada ejecucion seran guardados en reporte_v1_xx.txt o reporte_v2_xx.txt donde xx indica el numero de ejecucion. En cada carpeta hay una tabla adjuntada con todos los tiempos de ejecucion de cada run (1 - 15) tanto en formato odt como en formato csv.
+
+6)
+    Localidad temporal: Los elementos a los que se accedió recientemente tienden a ser accedidos nuevamente en el futuro cercano.
+
+    Localidad espacial: Si se accede a una posición de memoria una vez, es probable que el progr	ama acceda a una ubicación de memoria cercana.
+
+Entonces al acceder al total de pago del primer alumno, los datos no estan en la cache por lo que se da un miss y se mueve un bloque para los siguientes elementos cercanos.
+
+
+7) En la version V1 se usa el siguiente codigo:
+
+printf("Alumno\tCosto/Credito\tTotal_Creditos\tTotal_a_Pagar\tTiempo_de_ejecucion_(ns)\n");
+for(int i=0; i<nAlumnos; i++){
+	printf("%d\ts/.%5.2f\t\t%5.2f\t\t\ts/.", arrCodAlumno[i], arrEscAlumno[i], arrTotalCreditos[i]);
+
+	clock_gettime(CLOCK_REALTIME, &ti);
+	printf("%5.2f", arrEscAlumno[i]*arrTotalCreditos[i]);
+	clock_gettime(CLOCK_REALTIME, &tf);
+	elapsed = (tf.tv_sec - ti.tv_sec) * 1e9 + (tf.tv_nsec - ti.tv_nsec);
+	printf("\t\t\t%5.2f\n", elapsed);
+}
+
+Previamente se accede a los valores de arrEscAlumno[i] y arrTotalCreditos[i] y luego son usados para calcular el valor del total gastado. Por localidad temporal creo que si se intercambian los sumandos se podria aprovechar, puesto que se accede 2 veces a arrTotalCreditos[i]. En el caso de la localidad espacial se aprovecha que se accede a valores cercanos, sin embargo el hecho de acceder a 2 arreglos double más realizar el calculo agrega tiempo de ejecucion.
+
+
+8) En la version V2 se usa el siguiente codigo:
+
+printf("Alumno\tCosto/Credito\tTotal_Creditos\tTotal_a_Pagar\tTiempo_de_ejecucion_(ns)\n");
+for(int i=0; i<nAlumnos; i++){
+	printf("%d\ts/.%5.2f\t\t%5.2f\t\t\ts/.", arrCodAlumno[i], arrEscAlumno[i], arrTotalCreditos[i]);
+
+	clock_gettime(CLOCK_REALTIME, &ti);
+	printf("%5.2f", arrTotalApagar[i]);
+	clock_gettime(CLOCK_REALTIME, &tf);
+	elapsed = (tf.tv_sec - ti.tv_sec) * 1e9 + (tf.tv_nsec - ti.tv_nsec);
+	printf("\t\t\t%5.2f\n", elapsed);
+}
+En esta situacion se aprovecha unicamente la localidad espacial, puesto que nunca se vuelve acceder a una misma ubicacion 2+ veces. Además, los datos ya estan previamente calculados por lo que es un simple acceso adicional a un arreglo de double.
+
+9) En mi caso MatriculaV2.c da mejores resultados segun lo visto en la tabla de ejecucion y en 2 ejecuciones presenta una mejora muy considerable.
+
+
+10) En el caso de datos tipo char que solo ocupan 1 byte es posible arrastrar más datos en un solo bloque lo que mejora la oportunidad de hit a diferencia de usar un dato tipo long long que usa 16 bytes. 

@@ -1,0 +1,23 @@
+
+Memoria Virtual:
+
+- Usar parte del disco duro como RAM (linuxswap partition || windows ram virtual)
+
+- Ubicacion de memoria imaginaria en el que el SO maneja problemas de direccionamiento.
+
+- MemVirtual -> Archivo de paginacion (page file)
+
+- Paginacion: 
+	la memoria se divide en bloques de tamaño fijo
+	los programas se dividen en bloques del mismo tamaño 
+
+Caracteristicas:
+	No es necesario Almacenera fragmentos continuos de programa.
+	Cada DirVirt se debe traducir a DirFis
+
+
+
+
+
+
+

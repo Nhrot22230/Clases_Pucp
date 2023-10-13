@@ -1,0 +1,66 @@
+Segmentación de datos a través del Datapath
+
+Etapa de instruciones
+Fetch
+Decode
+Execute
+Memory Access
+Write Back
+
+Todas las instrucciones pasan por fetch
+En la arquitectura RISC las operaciones aritmeticas no pasan poe DataAccess
+
+instrucciones : lw, sw : load word, store word
+Tiempo lw 800ps (200 + 100 + 200 + 200 + 100)
+
+Pipeline:
+
+Riesgos
+
+Estructural: Un requerimiento del sistema está ocupado.
+
+Datos: Esperar a que la instrucción previa complete su lectura/escritura.
+
+Control: Decisiones que dependen de instrucciones previas.
+
+Soluciones para el riesgo de Datos:
+- Reordenar instrucciones
+- Aplicar forwarding, se desvia la salida de los EXECUTE y WB para solucionar la chancada de datos.
+
+- A pesar de implementar el forwarding pueden seguir existiendo fallos al tratar directamete con memoria puesto q el fowarding aprovecha salida de alu
+
+- Stalling lo q yo pensaba hacer con nop un nop intermedio pa hacer hora
+
+Soluciones para el riesgo de Control:
+
+- Mas complicada de arreglar
+- 1. No tomar el salto con stall (3 ciclos) pero pierdes tiempo que se podria haber invertido en reconocer otras instrucciones (Pero es lo mas seguro)
+- Tomar el salto tamb cuesta 3 ciclos de reloj
+
+- Lo hace automaticamente la unidad de control
+
+Supersegmentacion:
+
+Es posible mejorar el rendimiento del pipeline usando partes mas pequeñas
+
+Superescalado:
+2 instruciones a la vez, mucho uso de hardware
+
+
+
+Niveles de paralelismo:
+
+1 er: Bit a Bit -> operaciones en bloque
+2 do: Pipeline -> comandos "a la vez"
+3 er: 1 variable contiene muchos datos xd?
+
+
+
+
+
+
+
+
+JORGE ALEJANDRO - 20202060
+
+

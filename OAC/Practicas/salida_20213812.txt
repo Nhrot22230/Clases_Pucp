@@ -1,0 +1,25 @@
+alulab@V20723:~/Descargas/Lab1_20213812$ nasm -f elf64 mediaSinMenores_20213812.asm
+alulab@V20723:~/Descargas/Lab1_20213812$ ld mediaSinMenores_20213812.o -o mediaSinMenores_20213812
+alulab@V20723:~/Descargas/Lab1_20213812$ ./mediaSinMenores_20213812 
+Ingrese la cantidad de menores a quitar: 6
+La media calculada es: 0
+alulab@V20723:~/Descargas/Lab1_20213812$ ./mediaSinMenores_20213812 
+Ingrese la cantidad de menores a quitar: 2
+La media calculada es: 7
+alulab@V20723:~/Descargas/Lab1_20213812$ ./mediaSinMenores_20213812 
+Ingrese la cantidad de menores a quitar: 1
+La media calculada es: 6
+alulab@V20723:~/Descargas/Lab1_20213812$ ./mediaSinMenores_20213812 
+Ingrese la cantidad de menores a quitar: 3
+La media calculada es: 8
+alulab@V20723:~/Descargas/Lab1_20213812$ ./mediaSinMenores_20213812 
+Ingrese la cantidad de menores a quitar: 5
+La media calculada es: 9
+alulab@V20723:~/Descargas/Lab1_20213812$ ./mediaSinMenores_20213812 
+Ingrese la cantidad de menores a quitar: 7
+La media calculada es: 0
+alulab@V20723:~/Descargas/Lab1_20213812$ ./mediaSinMenores_20213812 
+Ingrese la cantidad de menores a quitar: 0
+La media calculada es: 6
+alulab@V20723:~/Descargas/Lab1_20213812$ 
+

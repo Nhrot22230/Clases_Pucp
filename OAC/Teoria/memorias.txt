@@ -1,0 +1,116 @@
+MEMORIAS:
+
+
+tipos de memoria:
+
+- Read-Only-Memory:
+	- ROM
+	- Programmable ROM (PROM)
+	- Erasable PROM (EPROM)
+	- Electrically Erasable PROM (EEPROM)
+	- Flash
+- Rapid- Access-Memory:
+	- Dynamic RAM: 
+			- MultiBank DRAM
+			- Fast-Page Mode FPM DRAM
+			- Extended Data OUT 
+
+	- Static RAM: Las memorias DRAM operan básicamente de la misma forma; sin embargo, se presentan varios enfoques
+			- Asynchronous SRAM
+			- Synchronous SRAM
+			- Pipeline burst SRAM
+
+Caracteristicas:
+
+Accesos:
+	- Acceso secuencial: La información accede a los datos en un orden secuencial. El accceso secuencial puede ser:
+		- Directo: Los bloques tienen una dirección única basda en su dirección física. Para leer/escribir se accede de forma direca al bloque o una vencidad hasta encontrar...
+		- Indirecto:
+
+
+	- Acceso aleatorio:
+
+
+Tiempo de acceso: 
+
+	- Latencia
+	- Para memorias de acceso aleatorio es el tiempo que tarda en realizarse una operación de W/R. Es decir, el tiempo transcurrido desde que se presenta una dirección a la memoria hasta que el dato esté disponible para su uso.
+	- Para la memoria de acceso no aleatorio, el tiempo de acceso es el tiempo que se tarda en colocar el mecanismo de lectura y escritura en la unicación deseada.
+
+Velocidad de transferencia:
+	- Velocidad de enviar o recibir una unidad de memoria desde un punto a otro.
+
+Jerarquia de Memoria:
+	- realizar una cmbinación de diferentes tecnologías de memorias para mejorar el rendimiento al mejor costo.
+
+	- Los tipos de base que normalmente constituyen el sistema de memoria jerarquica
+
+
+
+	1. Registros
+	2. Level 1 cache
+	3. Level 2 cache
+	4. Main memory
+	5. Solid-State Disk
+	6. Fixed Rigid Disk
+	7. Optical Disks
+	8. Magnetic Tapes
+	9. USB Flash Drives
+	9. Removable Hard Drives	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

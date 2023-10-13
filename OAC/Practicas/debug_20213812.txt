@@ -1,0 +1,64 @@
+gdb mediaSinMenores_20213812 
+
+(gdb) set logging file debug_20213812.txt
+(gdb) set logging on
+Warning: 'set logging on', an alias for the command 'set logging enabled', is deprecated.
+Use 'set logging enabled on'.
+
+Copying output to debug_20213812.txt.
+Copying debug output to debug_20213812.txt.
+(gdb) break _start 
+Punto de interrupción 1 at 0x401000
+(gdb) break final
+Punto de interrupción 2 at 0x4011c3
+(gdb) run
+Starting program: /home/alulab/Descargas/Lab1_20213812/mediaSinMenores_20213812 
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+(gdb) p (long[6])arreglo
+$1 = {5, 3, 4, 8, 9, 7}
+(gdb) continue
+Continuando.
+Ingrese la cantidad de menores a quitar: 2   
+La media calculada es: 7
+Breakpoint 2, 0x00000000004011c3 in final ()
+(gdb) p (long[6])arreglo
+$2 = {3, 4, 5, 7, 8, 9}
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/alulab/Descargas/Lab1_20213812/mediaSinMenores_20213812 
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+(gdb) p (long[6])arreglo
+$3 = {5, 3, 4, 8, 9, 7}
+(gdb) continue
+Continuando.
+Ingrese la cantidad de menores a quitar: 3
+La media calculada es: 8
+Breakpoint 2, 0x00000000004011c3 in final ()
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/alulab/Descargas/Lab1_20213812/mediaSinMenores_20213812 
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+(gdb) p (long[6])arreglo
+$4 = {5, 3, 4, 8, 9, 7}
+(gdb) continue
+Continuando.
+Ingrese la cantidad de menores a quitar: 6
+La media calculada es: 0
+Breakpoint 2, 0x00000000004011c3 in final ()
+(gdb) p (long[6])arreglo
+$5 = {3, 4, 5, 7, 8, 9}
+(gdb) exit
+Una sesión de depuración está activa.
+
+	Inferior 1 [process 7623] will be killed.
+
+¿Salir de cualquier modo? (y or n) y
+
+
+
+

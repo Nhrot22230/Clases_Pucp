@@ -1,0 +1,171 @@
+1. Introduccion
+
+Mientras que CS se encarga de resolucion de algoritmos. Oac se encarga del Hardware para entender xq algun algoritmo seria irrealizable o muy lento.
+
+- Desarrollo de compiladores: Entendimiento del entorno del hardware del compilador.
+- Modelamiento de grandes y complejos sistemas: Entendimiento de la aritmética de punto flotante y cómo funciona en la práctica.
+- Diseño de periféricos: Conocimiento de cómo la computadora interactúa con su entrada y salida.
+- Desarrollo de sistemas embebidos: Limitación de recursos, compensación de tiempo, espacio y precio.
+- Finalmente, es el entendimiento de la interacción del hardware con el software y a través del mismo.
+
+Organización de computadoras (Electronico):
+Integracion de circuitos y componentes para crear un sistema indormatico funcional. Control de la computadora. Su estudio ayuda a responder cómo funciona una computadora.
+
+Arquitectura de computadoras (Instrucciones):
+Se enfoca en la estructura y comportamiento del sistema de la computadora. Se
+centra en la lógica y los aspectos abstractos de la implementación del sistema visto
+por el programador. Su estudio ayuda a responder cómo diseñar una computadora.
+
+
+Clases de instrucciones: Transferencia de data, ALU (ADD, SUB, AND, OR), punto flotante, etc.
+Operaciones y acceso en memoria (Register, Immediate, Displacement, etc.).
+Tamaño y tipos de datos que maneja (Binary Integer (8-bit,…,64-bit), BCD, punto flotante, etc.).
+
+
+Modelo de Von Neumann:
+Programa almacenado en memoria
+
+CPU con unidad de control, ALU, registros y contador de programa
+Memoria principal, con programas que controlan la operación de la computadora
+Sistema de I/O
+
+Los programas y los datos se almacenen en un medio de almacenamiento de acceso lento, como un disco duro, y puedan copiarse a un medio de almacenamiento volátil y de acceso rápido
+
+Von Neumann se ha simplificado utilizando el modelo de buses del sistema: bus de datos e instrucciones, bus de direcciones y bus de control.
+
+Arquitectura Harvard:
+Datos e instrucciones tienen su propio bus y su propio almacenamiento separado
+
+Ventaja: No se presenta el cuello de botella de von Neumann ya que el procesamiento es en paralelo y hay mayor ancho de banda
+
+Desventaja: Se deben proporcionar mecanismos para cargar por separado el programa que se ejecutará en la memoria de instrucciones y cualquier información que se operará en la memoria de datos
+
+Arquitectura CISC (Complex)
+familia x86
+gran número de instrucciones de longitud variable y diseños complejos
+instrucciones que accedían directamente de la memoria
+las complejas las que requieren miles de ciclos
+produjeran programas pequeños y rápidos
+Unidad de control micro-programada
+
+Arquitectura RISC (Reduced)
+objetivo es simplificar las instrucciones
+solo load y store pueden acceder a memoria
+Cada instrucción realiza una sola operación
+Ofrece un set de instrucciones menor que CISC
+Unidad de control cableado
+
+Arquitectura interna de la familia de procesadores Intel x86 
+Las instrucciones SIMD permiten que una sola instrucción se aplique simultáneamente a múltiples elementos de datos (mayor rendimiento).
+
+CPU - Análisis de arquitectura
+Se encarga de obtener instrucciones, decodificarlas y realizar la secuencia de operaciones indicada
+Datapath:
+Unidad de control:
+	“manejar el tráfico” del CPU, Controla a la ALU
+	contador de programa
+	registro de estado
+
+	cableada:
+	-Decodificador de instrucciones -> Activa la señal de salida
+	-Contador de ciclo -> Activa una señal de sincronización Tn para cada ciclo
+	-Matriz de control -> Combina las señales del contador de ciclo y del decodificador
+	-dependencia de las compuertas del circuito
+
+	micro-programada:
+	-microinstruccione
+	-señales controlan el movimiento de bytes
+	-micro-código de instrucción que produce las señales de control
+	-microprograma se almacena en el ROM, forma el firmware
+
+
+Little endian: El byte menos significativo
+Big endian: El byte más significativo primero
+
+0xABCD1234, 0x00FE4321
+
+Dirección Big Endian Little Endian
+0x200 AB 34
+0x201 CD 12
+0x202 12 CD
+0x203 34 AB
+
+0x204 00 21
+0x205 FE 43
+0x206 43 FE
+0x207 21 00
+
+Unidades de rendimiento:
+Ciclos por instrucción
+Tiempo de ejecución
+MIPS y FLOPS
+
+Actualmente, la alternativa más apropiada para obtener el tiempo de ejecución es
+utilizar la media geométrica de todos los ratios de tiempos de referencia
+
+Ley de Amdahl
+- Es muy común que los diseñadores de computadoras busquen mejorar constantemente el desempeño de la misma a través de mejoras en la tecnología o diseño
+
+Segmentación de datos a través del Datapath
+
+Etapa de instruciones
+Fetch
+Decode
+Execute
+Memory Access
+Write Back
+
+Todas las instrucciones pasan por fetch
+En la arquitectura RISC las operaciones aritmeticas no pasan por DataAccess
+
+
+Segmentacion en el camino de datos
+
+lw/sw:       200  100  200  200  100
+arit/logic:  200  100  200       100
+branch       200  100  200
+
+Riesgos del pipeline
+
+estructurales -> Un requerimiento del sistema está ocupado
+
+datos         -> Esperar a que la instrucción previa complete su lectura/escritura.
+
+control       -> Decisiones de control que dependen de instrucciones previas
+
+Soluciones: Riesgos de datos
+
+A nivel de compilador la solución es simplemente reordenar las instrucciones
+A nivel de procesador veremos una técnica llamada Forwarding
+El forwarding consiste en la idea de que es posible observar a nivel de hardware si existe
+algún tipo de dependencia entre dos instrucciones consecutivas donde haya alguna
+dependencia es posible crear un atajo para que el resultado de una operación esté
+disponible automáticamente en la siguiente.
+
+Soluciones: Riesgos de datos - Stalling
+esperas ocasionadas por las dependencias de datos
+
+
+Riesgos de control
+presente en las instrucciones de salto condicional
+soluciones: 
+retrasar el pipeline la condición 
+predecir si el salto se realizará o no.
+
+No tomar el salto:
+- Esperar 3 ciclos
+- Pérdida de tiempo
+- Se podría invertir ciclos en fetch, decode las siguientes instrucciones
+
+Tomar el salto:
+- Esperar 3 ciclos
+- No hay instrucciones en el pipeline
+- Mismo retardo que sin “stalling”
+
+
+Supersegmentación
+pipeline usando partes más pequeñas
+
+Superescalaridad
+dos etapas del programa por ciclo del reloj
+utilicen más recursos del hardware
