@@ -1,0 +1,52 @@
+TODO LO QUE QUIERAS CONTROLAR DEBES PLANIFICARLO
+EL ÉXITO ESTA EN LA PLANIFICACIÓN
+
+Conceptos basicos:
+
+Data/Datos: Hechos objetivos que estan desorganizados y sin procesar. No tiene ninguna aplicación sin algún contexto.
+
+Campos de uso para la Data:
+	- Semiotica: Codificacion de signos.
+	- Metodo Cientifico: Hechos son representados por grupos de datos. Data es obtenida a traves de observaciones
+	- Informatica y Tecnologia: Almacenamiento y procesamiento de datos. Modelado de datos.
+	- Tecnologia: Estructuras de datos para representar y/o medir la realidad
+
+
+Información: Lluvia de ideas
+	Fenómeno polimórfico
+	General Definition of Information: Data + Meaning
+	Philosophy of Information (Floridi, 2005)
+	
+	Conjunto de datos
+		Well-formed: Datos agrupados correctamente (reglas o sintaxis en amplio sentido) (data “In formation”: Awad & Ghaziri, 2004)
+		Meaningful: Se refiere a que es interpretable
+		Truthful: True statements (¿información falsa?)
+
+	Otros campos (Economía de la información)
+		Útil: information for decision making, automation, and effective control of organizations
+		Valor: Expectativa de su potencial para cambiar eventos
+		Uncertainty reduction (Locke, Hume, Shannon): zero
+
+
+Sistemas: Conjunto de elementos que presentan un funcionamiento interno, transforman entradas en salidas.
+
+Tipos de Sistemas
+	Sociales
+	Judiciales
+	Administrativos
+	Informacion
+	Etc
+
+Teoria General de Sistemas
+	Isomorfismos: Similitudes diferentes campos: Estructuras
+	Más allá de especialidad (+interdisciplinas) (-Esfuerzo)
+
+Caracteristicas:
+	Holistico vs Redducionismo
+	Abierto vs Cerrado
+	Interdependencias
+	Objetivo
+	Propiedades
+	Descubrimiento de problemas
+
+

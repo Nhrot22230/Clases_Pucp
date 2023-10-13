@@ -1,0 +1,28 @@
+Cada region puede tener varias oficinas
+Una oficina solo puede estar en una region
+
+Las oficinas se encargan de gestionar Clientes, Pagos y Servicios
+
+Uno de los servicios es ofrecer paquetes de televisión
+
+Cada Paquete de television agrupa canales
+
+Hay tipos de canales: estandar, premium y Pay Per View
+
+Cada Canal transmite ciertos programas de su categoria
+
+Un mismo programa puede ser transmitido por mas de una vez en diferentes horarios y en distintos canales
+
+
+
+
+
+Un mismo canal puede estar en varios paquetes.
+Un paquete agrupa varios canales.
+
+Canal:
+Categoria
+
+
+Canal -- N -- Tiene -- N -- Paquete
+

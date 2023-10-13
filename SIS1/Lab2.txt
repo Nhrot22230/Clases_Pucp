@@ -1,0 +1,231 @@
+Empresa ED-Tech AEDITIP
+
+Procesos Misionales (Core Business Processes):
+
+    Desarrollo de Contenido Educativo:
+        Identificación de temas de programación a enseñar.
+        Creación de contenido didáctico, ejercicios y proyectos.
+        Diseño de cursos y lecciones.
+        Pruebas de calidad del contenido.
+
+    Diseño y Mantenimiento del Sitio Web:
+        Diseño y desarrollo de la página web.
+        Creación de perfiles de usuario y sistemas de inicio de sesión.
+        Implementación de una plataforma de gestión de cursos en línea (LMS).
+        Actualización y mantenimiento continuo del sitio web.
+
+    Oferta y Promoción de Cursos:
+        Creación de páginas de cursos.
+        Desarrollo de estrategias de marketing para promocionar cursos.
+        Proceso de inscripción y pago en línea.
+        Entrega de contenido a los estudiantes.
+
+Procesos Operativos:
+
+    Soporte Técnico y Atención al Cliente:
+        Resolución de problemas técnicos.
+        Atención al cliente a través de WhatsApp y otros canales.
+        Proporcionar orientación sobre el uso de la plataforma y los cursos.
+
+    Monitoreo de Datos y Analítica:
+        Recopilación y análisis de datos de estudiantes.
+        Evaluación del progreso de los estudiantes.
+        Identificación de áreas de mejora en los cursos.
+
+    Gestión de Contenido:
+        Actualización y mejora continua del contenido educativo.
+        Mantenimiento de una base de datos de recursos de programación.
+
+Procesos de Soporte:
+
+    Recursos Humanos:
+        Contratación y formación de instructores y personal de soporte.
+        Gestión de nóminas y asuntos laborales.
+
+    Finanzas y Administración:
+        Gestión de ingresos y gastos.
+        Facturación y seguimiento de pagos de estudiantes.
+        Gestión de proveedores y contratos.
+
+Procesos Estratégicos:
+
+    Investigación y Desarrollo (I+D):
+        Investigación de nuevas tecnologías y enfoques educativos.
+        Desarrollo de nuevas características y cursos.
+
+    Colaboraciones Estratégicas:
+        Identificación de socios potenciales en la industria de la tecnología y la educación.
+        Negociación de alianzas estratégicas para expandir la oferta de cursos.
+
+Procesos de Evaluación/Control:
+
+    Evaluación de la Efectividad Educativa:
+        Evaluación de los resultados de los estudiantes.
+        Retroalimentación de estudiantes y profesores.
+        Revisión y mejora de cursos en función de los resultados.
+
+    Seguimiento de Metas y KPIs:
+        Seguimiento de métricas clave de rendimiento, como la tasa de finalización de cursos y la satisfacción del cliente.
+        Ajuste de estrategias en función de los datos recopilados.
+
+
+
+Posibles Areas:
+	Desarrollo de Contenido Educativo
+	Marketing para adquisicion de estudiantes
+	Recursos Humanos
+	Gestion Financiera
+
+
+Entendiendo bien:
+	La ed tech requiere de 3 cosas basicas:
+	- Cursos
+	- Profesores que dicten los cursos
+	- Alumnos que serian los clientes y/o usuarios
+
+	Por lo tanto debe existir por lo menos 3 procesos clave:
+	- diseño de cursos
+	- contratacion de profesores
+	- inscripcion/matricula de alumnos
+
+En nuestro caso Jorge Fatama es el main boss (director y gerente general)
+Aparte tambien es profesor por lo que se puede ver en su hoja de tareas
+
+Planteo de posibles situaciones:
+- diseño de cursos
+- contratacion de profesores
+- inscripcion/matricula de alumnos
+- profesor enfermo/ausente
+- profesor incide una falta grave (comportamiento, acoso, discriminacion, etc xd no c esto)
+- Organizar los horarios de los profesores.
+- alumno tiene cruces con sus examenes de universidad
+- alumno no paga a tiempo su cuota
+- Como se facturan los cobros y si estos son registrados de que forma?
+- Gestion y seleccion de alumnos para becas
+- Descuentos por compra/inscripcion en varios cursos
+- seguimiento de los alumnos
+- Categorizacion de clientes
+- como es el soporte tecnico xq no acepta llamadas xd
+- cancelacion de un curso por que el alumno no c xd
+- almacenamiento de datos de los usuarios (profesores/alumnos)
+
+
+
+
+
+Claro, puedo ayudarte a elaborar una serie de preguntas agrupadas por categoría basadas en las situaciones que mencionaste. Estas preguntas pueden servir como guía para una entrevista con respecto a la gestión de una empresa de EdTech:
+
+**Situaciones relacionadas con Profesores:**
+
+1. **Profesor enfermo/ausente:**
+   - ¿Cuál es el protocolo para manejar situaciones en las que un profesor está enfermo o ausente?
+   - ¿Cómo se asegura la continuidad de la enseñanza en caso de que un profesor no pueda dar clases?
+
+2. **Profesor incide una falta grave:**
+   - ¿Cuáles son las políticas y procedimientos para abordar casos de falta grave de un profesor, como comportamiento inapropiado, acoso o discriminación?
+   - ¿Cómo se garantiza un ambiente seguro y respetuoso para estudiantes y profesores?
+
+3. **Organización de Horarios de Profesores:**
+   - ¿Cómo se planifican y gestionan los horarios de los profesores para asegurarse de que haya disponibilidad para los cursos?
+   - ¿Qué herramientas o sistemas se utilizan para organizar y coordinar los horarios de los profesores?
+
+**Situaciones relacionadas con Alumnos:**
+
+4. **Alumno tiene cruces con sus exámenes de universidad:**
+   - ¿Qué políticas existen para manejar situaciones en las que un estudiante tiene conflictos de horario con sus exámenes universitarios?
+   - ¿Se proporciona flexibilidad en la programación de cursos para acomodar estos casos?
+
+5. **Alumno no paga a tiempo su cuota:**
+   - ¿Cómo se aborda la gestión de pagos de los estudiantes?
+   - ¿Cuáles son las políticas de pago, plazos y consecuencias por falta de pago a tiempo?
+
+**Situaciones relacionadas con Facturación y Finanzas:**
+
+6. **Cómo se facturan los cobros y si estos son registrados de qué forma:**
+   - ¿Qué métodos de facturación se utilizan para los estudiantes?
+   - ¿Cómo se registran y gestionan los pagos y transacciones financieras?
+
+7. **Gestión y selección de alumnos para becas:**
+   - ¿Cómo se decide la asignación de becas a estudiantes?
+   - ¿Cuáles son los criterios y procesos para seleccionar a los beneficiarios de becas?
+
+8. **Descuentos por compra/inscripción en varios cursos:**
+   - ¿Se ofrecen descuentos o paquetes para estudiantes que se inscriben en varios cursos?
+   - ¿Cómo se gestionan estos descuentos y cómo se aplican?
+
+**Situaciones relacionadas con la Gestión de Alumnos:**
+
+9. **Seguimiento de los alumnos:**
+   - ¿Cómo se realiza el seguimiento del progreso académico y el compromiso de los estudiantes?
+   - ¿Qué estrategias se utilizan para mejorar la retención de estudiantes?
+
+10. **Categorización de clientes:**
+    - ¿Cómo se categorizan y segmentan a los estudiantes y profesores?
+    - ¿Qué beneficios o servicios adicionales se ofrecen a diferentes categorías de clientes?
+
+**Situaciones relacionadas con el Soporte Técnico:**
+
+11. **¿Cómo es el soporte técnico y por qué no acepta llamadas?:**
+    - ¿Qué canales de soporte técnico se ofrecen a los estudiantes y profesores?
+    - ¿Por qué se ha optado por no aceptar llamadas y cuáles son las alternativas disponibles?
+
+**Situaciones relacionadas con la Cancelación de Cursos y el Almacenamiento de Datos:**
+
+12. **Cancelación de un curso por que el alumno no c:**
+    - ¿Cuáles son las políticas y procedimientos para la cancelación de cursos por falta de participación de los estudiantes?
+    - ¿Cómo se comunica esta decisión a los estudiantes afectados?
+
+13. **Almacenamiento de datos de los usuarios (profesores/alumnos):**
+    - ¿Cómo se gestionan y almacenan los datos personales y académicos de los usuarios?
+    - ¿Qué medidas se toman para garantizar la privacidad y seguridad de estos datos?
+
+Estas preguntas pueden ayudarte a explorar en detalle cómo se abordan y gestionan diversas situaciones dentro de tu empresa de EdTech, desde cuestiones académicas hasta financieras y de soporte técnico. A medida que realices entrevistas y recopiles información, podrás desarrollar políticas y procesos sólidos para abordar estas situaciones de manera efectiva.
+
+
+Claro, a continuación, te proporcionaré una entrevista breve agrupada por categorías relacionadas con la gestión de una empresa de EdTech. Las categorías incluyen Diseño de Cursos, Gestión de Profesores, Inscripción de Alumnos, Gestión Financiera, Soporte Técnico, y Aspectos Legales y de Privacidad de los Datos:
+
+**Diseño de Cursos:**
+
+1. **Pregunta:** ¿Cómo se desarrollan y actualizan los cursos en su plataforma de EdTech para asegurarse de que estén alineados con las últimas tendencias en programación?
+
+2. **Pregunta:** ¿Cómo garantizan que los cursos sean atractivos y efectivos para los estudiantes?
+
+**Gestión de Profesores:**
+
+3. **Pregunta:** ¿Cuál es su proceso de contratación y selección de profesores? ¿Qué criterios utilizan para elegir a los instructores?
+
+4. **Pregunta:** ¿Cómo manejan situaciones en las que un profesor no puede dar clases debido a enfermedad o ausencia inesperada?
+
+5. **Pregunta:** ¿Cuáles son las políticas y procedimientos para abordar problemas de comportamiento o situaciones de acoso por parte de los profesores?
+
+6. **Pregunta:** ¿Cómo organizan y programan los horarios de los profesores para garantizar una experiencia de aprendizaje consistente?
+
+**Inscripción/Matrícula de Alumnos:**
+
+7. **Pregunta:** ¿Cuál es el proceso de inscripción y matrícula de los estudiantes en sus cursos? ¿Qué información se requiere de los alumnos durante este proceso?
+
+8. **Pregunta:** ¿Cómo manejan situaciones en las que un alumno tiene conflictos de horario con sus exámenes universitarios u otros compromisos académicos?
+
+9. **Pregunta:** ¿Cuál es la política en caso de que un alumno no pague a tiempo su cuota de inscripción o mensualidad?
+
+**Gestión Financiera:**
+
+10. **Pregunta:** ¿Cómo se facturan los cobros a los estudiantes y de qué manera se registran estos pagos en su sistema?
+
+11. **Pregunta:** ¿Cómo gestionan y seleccionan a los estudiantes para becas o descuentos en los cursos?
+
+12. **Pregunta:** ¿Ofrecen descuentos especiales por la compra o inscripción en varios cursos? ¿Cómo funcionan estos descuentos?
+
+**Soporte Técnico:**
+
+13. **Pregunta:** ¿Cuáles son las opciones de soporte técnico que ofrecen a los estudiantes en caso de problemas técnicos durante su experiencia de aprendizaje?
+
+14. **Pregunta:** ¿Por qué su plataforma no acepta llamadas y cuál es la vía principal de comunicación para recibir asistencia técnica?
+
+**Aspectos Legales y de Privacidad de los Datos:**
+
+15. **Pregunta:** ¿Cuál es su política de cancelación de cursos por parte de los alumnos y cómo se maneja este proceso?
+
+16. **Pregunta:** ¿Cómo almacenan y protegen los datos personales de los usuarios, tanto profesores como alumnos, para garantizar la privacidad y cumplir con las regulaciones de protección de datos?
+
+Estas preguntas pueden ayudarte a obtener una visión más detallada de cómo se gestionan aspectos clave de tu empresa de EdTech y cómo se abordan situaciones diversas. Asegúrate de adaptarlas a tus necesidades específicas y de seguir profundizando en cada tema según las respuestas proporcionadas.

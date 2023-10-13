@@ -1,0 +1,23 @@
+Pasos para hacer el examen:
+
+Repasar: 
+
+- Diagrama Entidad Relacion
+- Diagrama de Contexto
+
+
+
+-> En general se trata de unificar el sistema actual (negocio) con un sistema futuro (planteado) para formar un sistema de informacion.
+
+
+Despues de leer las preguntas.
+
+1. Realizar un diagrama de contexto.
+	1.1 Identificar a todos los posibles participantes del diagrama de contexto
+	1.2 Revisar el rol que cumplen aquellos participantes y si estan incluidos en el sistema
+	1.3 Esto ayuda a delimitar el sistema
+	1.4 Verificar que datos entrega y/o recibe cada participante
+	1.5 Con esta informacion se filtra o se puede sustentar a los participantes
+
+2. Identificar eventos:
+	Evento: Usuario - Accion - Finalidad

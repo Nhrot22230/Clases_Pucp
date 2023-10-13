@@ -1,0 +1,30 @@
+Factores de serie de pagos con gradiente lineal
+
+Importe constante entre periodos.
+
+P1 = B*[({1+i}^n - 1) / (i*{1+i}^n)]
+P2 = G*[({1+i}^n - i*n - 1) / (i*i*{1+i}^n)]
+
+P = P1 + P2 = B * (P/A,i ,n) + G*(P/G, i, n)
+
+
+Invertir P 
+
+construccion 30%
+Equipamiento 70%
+
+n = 15
+
+I1 = 1.2 *10^6
+
+G1: IncConst = 25*10^3 [1, 4]
+
+G2: IncConst = 25*10^3 [5, 10]
+
+G3: IncConst = -20*10^3 [11, 15]
+
+Costos = 500*10^3 [0, 10]
+
+Costos = 600*10^3 [11, 15]
+
+Venta de Equip = P*25%
